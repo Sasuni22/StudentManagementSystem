@@ -1,0 +1,38 @@
+/* Logout Button */
+.logout-btn {
+  padding: 12px 24px; /* Slightly increased padding for better button size */
+  background-color: #ae80f3; /* Purple background color */
+  color: white;
+  border: none;
+  border-radius: 8px; /* Rounded corners */
+  cursor: pointer;
+  font-size: 1rem;
+ 
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Added transition for hover effect */
+}
+
+/* Logout Button Hover Effect */
+.logout-btn:hover {
+  background-color: #9b6dd6; /* Darker shade of purple on hover */
+  transform: scale(1.05); /* Slightly increase size on hover */
+}
+
+/* Focus Effect for Accessibility */
+.logout-btn:focus {
+  outline: none; /* Remove default outline */
+  box-shadow: 0 0 0 3px #ae80f3; /* Add custom focus ring */
+}
+
+/* Disabled Button Style */
+.logout-btn:disabled {
+  background-color: #cccccc; /* Gray background for disabled state */
+  cursor: not-allowed; /* Change cursor to indicate the button is not clickable */
+}
+
+/* Responsive: Make sure the button looks good on small screens */
+@media (max-width: 768px) {
+  .logout-btn {
+    width: 100%; /* Make the button full-width on smaller screens */
+    font-size: 1rem; /* Slightly larger text for better readability on mobile */
+  }
+}

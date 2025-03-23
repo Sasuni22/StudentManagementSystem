@@ -1,0 +1,33 @@
+/* Styles for the header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #d9d9f3;
+    height: 80px;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .logo-text {
+    display: flex;
+    align-items: center; /* Vertically aligns the logo and text */
+  }
+  
+  .logo-text img {
+    margin-right: 10px; /* Space between the logo and the text */
+  }
+  
+  .text p {
+    margin: 0;
+    font-size: 13px;
+    font-weight: 550; /* Removes default margin from <p> tags */
+  }
+  
+  .sms-text {
+    display: flex;
+    align-items: center; /* Vertically aligns the "SMS" text */
+    font-size: 16px;
+    margin-left: -85px;/* Adjust the font size if needed */
+  }
+  

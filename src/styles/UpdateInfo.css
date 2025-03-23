@@ -1,0 +1,55 @@
+/* Container */
+.admin-main {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Form */
+  .update-form {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  /* Input Fields */
+  .update-form input,
+  .edit-details input {
+    padding: 8px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Buttons */
+  .edit-btn,
+  .update-btn {
+    background-color: #9e5ff7;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 10px;
+  }
+  
+  .edit-btn:hover,
+  .update-btn:hover {
+    background-color: #9e5ff7;
+  }
+  
+  /* Edit Details */
+  .edit-details {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  /* Active Menu Item */
+  .admin-menu .active {
+    font-weight: bold;
+    color: #9e5ff7;
+  }
+  

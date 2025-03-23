@@ -1,0 +1,45 @@
+/* Login Button Styles */
+
+.login-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+ /* Increased max-width for larger containers */
+  padding: 40px;
+  box-shadow: none; /* Remove box shadow to remove the "box" around the form */
+  border-radius: 0px; /* Remove border-radius for a cleaner look */
+  background: transparent; /* Transparent background to remove the box */
+  position: relative;
+  background-color: #e8e3f0;
+  height: 20px;
+}
+
+.login-btn {
+  padding: 12px 24px; /* Adjusted padding for better button size */
+  background-color: #ae80f3; /* Light purple background */
+  color: white;
+  border: none;
+  border-radius: 8px; /* Slightly rounded corners */
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+  margin-left: 1350px;
+  margin-bottom: 10px;
+}
+
+.login-btn:hover {
+  background-color: #957de4; /* Darker shade on hover */
+}
+
+/* Responsive: Make sure button looks good on small screens */
+@media (max-width: 768px) {
+  .login-container {
+    justify-content: center; /* Center the button on small screens */
+  }
+
+  .login-btn {
+    width: 100%; /* Make the button full-width on smaller screens */
+    font-size: 1.1rem; /* Slightly larger text for mobile */
+  }
+}

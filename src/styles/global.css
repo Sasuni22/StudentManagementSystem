@@ -1,0 +1,65 @@
+/* Global styles for the app */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.main-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  padding: 20px; /* Optional: adds some padding to the sides */
+}
+
+.text-image-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%; /* Ensure full width */
+  max-width: 1200px; /* Optional: maximum width for larger screens */
+}
+
+.text-content {
+  flex: 0.6; /* Reduces the text section to make room for the larger image */
+  padding: 10px;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.text-content h1 {
+  white-space: nowrap; /* Prevents "GET STARTED NOW!" from wrapping */
+  margin: 0; /* Optional: removes extra margin from the header */
+}
+
+.text-content p {
+  margin-top: 10px; /* Adds space between the title and the paragraph */
+  line-height: 1.5; /* Ensures the paragraph text is spaced well */
+}
+
+.image-content img {
+  width: 95%; /* Increases image width to 95% */
+  height: auto;
+  border-radius: 8px;
+  margin-left: 20px; /* Adds more space to the left to push the image towards the right */
+  margin-right: 0.7px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .text-image-container {
+      flex-direction: column; /* Stacks text and image on top of each other on small screens */
+      text-align: center; /* Centers the text */
+  }
+
+  .image-content img {
+      width: 100%; /* Ensures the image takes full width on small screens */
+      margin: 20px 0; /* Adds margin for better spacing */
+  }
+}
+
+  

@@ -1,0 +1,45 @@
+/* Container */
+.admin-main {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Form */
+  .remove-form {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-align: left;
+  }
+  
+  /* Input Fields */
+  .remove-form input {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Remove Button */
+  .remove-btn {
+    background-color: #9e5ff7;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.2s;
+  }
+  
+  .remove-btn:hover {
+    background-color: #9e5ff7;
+  }
+  
+  /* Active Menu Item */
+  .admin-menu .active {
+    font-weight: bold;
+    color: #9e5ff7;
+  }
+  

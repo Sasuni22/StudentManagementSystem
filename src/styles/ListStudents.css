@@ -1,0 +1,50 @@
+/* General styling */
+.admin-main {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .filter-form {
+    margin-bottom: 20px;
+  }
+  
+  .filter-form label {
+    display: block;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .filter-form input {
+    width: 200px;
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+  }
+  
+  .student-list table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .student-list th,
+  .student-list td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .student-list th {
+    background-color: #f8f9fa;
+  }
+  
+  .student-list td {
+    background-color: #f1f1f1;
+  }
+  
+  .student-list tr:hover {
+    background-color: #e9ecef;
+  }
+  
