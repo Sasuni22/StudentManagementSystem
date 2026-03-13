@@ -4,7 +4,7 @@ import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import LogoutButton from "../../components/LogoutButton";
 import { addCourse } from "../../services/apiService";
-import "../../styles/AddStudent.css"; // Reuse same styles
+import "../../styles/AddStudent.css"; 
 
 export default function CourseForm() {
   const navigate = useNavigate();
