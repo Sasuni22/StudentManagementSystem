@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import "../styles/loginButton.css";  // Import the login button styles
+import "../styles/loginButton.css";  
 
 export default function LoginButton() {
   return (
@@ -10,3 +10,4 @@ export default function LoginButton() {
     </div>
   );
 }
+
