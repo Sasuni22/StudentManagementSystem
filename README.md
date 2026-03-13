@@ -2,7 +2,7 @@
 
 A full-stack Student Management System designed to simplify and automate academic data management for educational institutions. This application enables efficient handling of student and course records while maintaining data integrity through detailed audit logging.
 
-🚀 Features
+🚀 Features includes:
 
 ➕ Add new Students and Courses
 ✏️ Edit existing Student and Course records
