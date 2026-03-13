@@ -6,7 +6,7 @@ import LogoutButton from "../../components/LogoutButton";
 import { getCourses, getCoursesBySemester, deleteCourse } from "../../services/apiService";
 import "../../styles/AddStudent.css";
 import "../../styles/AddCourse.css"; 
-import "../../styles/global.css";// Reuse same styles
+import "../../styles/global.css";
 
 export default function AddCourse() {
   const navigate = useNavigate();
@@ -25,7 +25,7 @@ export default function AddCourse() {
 
   useEffect(() => {
     fetchCourses();
-  }, [selectedSemester]); // Re-fetch courses when the semester changes
+  }, [selectedSemester]);
 
   const fetchCourses = async () => {
     try {
@@ -36,7 +36,7 @@ export default function AddCourse() {
         // Fetch courses for the selected semester
         coursesData = await getCoursesBySemester(selectedSemester);
       } else {
-        // Fetch all courses if no semester is selected
+      
         coursesData = await getCourses();
       }
 
@@ -145,3 +145,4 @@ export default function AddCourse() {
     </div>
   );
 }
+
